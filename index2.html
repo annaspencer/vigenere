@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <title>Beginner Cryptography</title>
+  </head>
+  <body>
+    <form onsubmit='return checkEncrypt();'>
+        <h1>Vigenere Cipher</h1>
+        <div class="field">
+            <label for="encrypt">Encrypt</label>
+            <input type="text" id="plaintext" placeholder="Plaintext" />
+            <small></small>
+            <button type="submit">Encrypt</button>
+        </form>
+        <form onsubmit='return checkDecrypt();'>
+        </div>
+        <div class="field">
+            <label for="decrypt">Decrypt:</label>
+            <input type="text" id="ciphertext"  placeholder="Ciphertext" />
+            <small></small>
+        
+        <button type="submit">decrypt</button>
+    </form>
+   <div id="right" style="width: 50%; float:right"> -->
+        <iframe src="Tests.html" style="width:100%; min-height: 800px"> -->
+    </div>
+<script src="ciphers.js"></script>
+  </html>
